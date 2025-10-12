@@ -23,3 +23,15 @@ ALTER DATABASE DATAWAREHOUSE SET SINGLE USER WITH ROLLBACK IMMEDIATE:
 DROP DATABASE Datawarehouse;
 END;
 GO
+
+CREATE DATABASE Datawarehouse;
+GO
+
+Use Datawarehouse;
+GO
+
+Create schema bronze;
+create schema silver;
+create schema gold;
+
+
